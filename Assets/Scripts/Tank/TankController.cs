@@ -36,4 +36,10 @@ public class TankController
     {
         return tank_model;
     }
+
+    public void Shoot(Transform fire_point, Rigidbody bomb_prefab)
+    {
+        Rigidbody bomb_instance = GameObject.Instantiate(bomb_prefab, fire_point.position, fire_point.rotation);
+        bomb_instance.velocity = bomb_instance.transform.forward * tank_model.bomb_speed; 
+    }
 }
