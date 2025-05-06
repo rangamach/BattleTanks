@@ -235,14 +235,17 @@ MonoBehaviour:
     color: {fileID: 2100000, guid: c39933e60e73205419d1f79a2af1fdac, type: 2}
     movement_speed: 30
     rotation_speed: 75
+    bomb_speed: 15
   - type: 2
     color: {fileID: 2100000, guid: ff21ff0ea9b18924bb1fdfbb0e58f5cb, type: 2}
     movement_speed: 10
     rotation_speed: 50
+    bomb_speed: 20
   - type: 1
     color: {fileID: 2100000, guid: 463052f3f7389124f9e7b34b0b931d0d, type: 2}
     movement_speed: 120
     rotation_speed: 60
+    bomb_speed: 10
   tank_view: {fileID: 7353552693742538697, guid: bfa75c1a24f523645afb55688b70c6e6, type: 3}
 --- !u!4 &952868166
 Transform:
@@ -461,7 +464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3870283614252561372, guid: b02382b9e205b7f4d89a5c94e08a2724, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3870283614252561374, guid: b02382b9e205b7f4d89a5c94e08a2724, type: 3}
       propertyPath: m_PresetInfoIsWorld
